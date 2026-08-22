@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: deployx
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: false
