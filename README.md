@@ -1,10 +1,10 @@
 # DeployX
 
-# DeployX
 
 ## Live Deployment
 
-Deployed at: https://deployx-a1l4sf16u-demon08.vercel.app
+Deployed Frontend at: https://deployx-a1l4sf16u-demon08.vercel.app
+Deployed Backend at: https://deployx-ssl9.onrender.com
 
 ## At a glance
 
