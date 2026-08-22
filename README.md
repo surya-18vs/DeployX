@@ -4,13 +4,7 @@
 
 ## Live Deployment
 
-Deployed at: https://deployx-fgf2znonz-demon08.vercel.app
-
-
-
-**Detect. Deploy. Done.**
-
-A full-stack deployment automation platform — push a project folder, get a live URL. Framework detection, secret scanning, and AI-powered build diagnosis run automatically before anything ships.
+Deployed at: https://deployx-a1l4sf16u-demon08.vercel.app
 
 ## At a glance
 
