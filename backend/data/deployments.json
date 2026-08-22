@@ -75,8 +75,18 @@
     "project": "deployx",
     "provider": "Vercel",
     "status": "live",
-    "url": "https://deployx-fgf2znonz-demon08.vercel.app",
-    "deploymentId": "dpl_BSAdbU5dvrhVzoT5bQ1Af2zeF1UA",
-    "time": "2026-08-22T16:32:04.972Z"
+    "url": "https://deployx-a1l4sf16u-demon08.vercel.app",
+    "deploymentId": "dpl_3sLcnz49WiYELrWvqdncXrTKePZc",
+    "time": "2026-08-22T16:40:17.060Z"
+  },
+  {
+    "id": "surya-18vs/DeployX",
+    "owner": "surya-18vs",
+    "project": "DeployX",
+    "provider": "GitHub + Render",
+    "status": "live",
+    "url": "https://deployx-a1l4sf16u-demon08.vercel.app",
+    "time": "2026-08-22T16:40:18.491Z",
+    "language": "JavaScript"
   }
 ]

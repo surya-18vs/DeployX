@@ -12,10 +12,11 @@ const connectionsRoutes = require("./routes/connections");
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
-const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
+const CLIENT_URL = process.env.CLIENT_URL || process.env.FRONTEND_URL || "http://localhost:5173";
+
 const CALLBACK_URL =
   process.env.GITHUB_CALLBACK_URL ||
-  `http://localhost:${PORT}/auth/github/callback`;
+  `${process.env.APP_BASE_URL || `http://localhost:${PORT}`}/auth/github/callback`;
 
 if (!process.env.GITHUB_CLIENT_ID || !process.env.GITHUB_CLIENT_SECRET) {
   console.error(
@@ -175,5 +176,5 @@ app.use((err, req, res, next) => {
 // Start Server
 // ======================
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`🚀 DeployX backend running on port ${PORT}`);
 });
